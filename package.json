@@ -1,0 +1,19 @@
+{
+  "name": "entrega2-websockets",
+  "version": "1.0.0",
+  "description": "Entrega N2 - Handlebars + Websockets (Socket.io) - Coderhouse",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
